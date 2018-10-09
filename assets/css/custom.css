@@ -1,0 +1,218 @@
+
+/*=============================================================
+    Authour URI: www.binarycart.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+/*==============================================
+    GENERAL  STYLES    
+    =============================================*/
+body {
+    font-family: Ubuntu;
+    line-height:30px;
+    font-size: 14pt;
+}
+
+ #wrapper {
+    width: 100%;
+    margin-top:90px;
+}
+
+.example-section {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.example-margin {
+  margin: 0 10px;
+}
+
+#page-wrapper {
+    padding: 15px 15px;
+    min-height: 600px;
+    background:#31b0d5;
+    
+   
+}
+#page-inner {
+    width:100%;
+    margin:10px 20px 10px 0px;
+    background-color:#fff!important;
+    padding:10px;
+    min-height:1050px;
+    
+}
+.pad-top {
+    padding-top:15px;
+}
+/*==============================================
+    MENU STYLES    
+    =============================================*/
+
+.sidebar-collapse .nav {
+	padding:0;
+    
+}
+
+.sidebar-collapse > .nav > li > a {
+        padding:15px 10px;
+        color: #214761;
+        font-weight: 900;
+        font-size: 16px;
+}
+.sidebar-collapse > .nav > li {
+	border-bottom:1px #e1e1e1;
+}
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+	
+	background:#F3F3F3;
+	outline:0;
+}
+
+.navbar-side {
+	border:none;
+	background-color: #fff;
+	
+}
+.navbar-inverse {
+
+    background-color: #003399;
+    min-height: 80px;
+}
+
+.nav #main-menu{
+    
+    overflow: auto;
+}
+.nav > li > a > i {
+    margin-right:10px;
+    
+}
+
+.active-link {
+    background-color:#31b0d5;
+}
+    
+/*==============================================
+    DASHBOARD STYLES    
+    =============================================*/
+.div-square {
+    padding:5px;
+    border:3px double #e1e1e1;
+    -webkit-border-radius:8px;
+   -moz-border-radius:8px;
+    border-radius:8px;
+    margin:5px;
+
+}
+
+.div-square> a,.div-square> a:hover {
+    color:#808080;
+     text-decoration:none;
+}
+/*==============================================
+    FOOTER STYLES     
+    =============================================*/
+.footer {
+    background-color:#214761;
+    width:100%;
+    color:#fff;
+    padding:20px 50px 20px 50px;
+     padding-left:20px;
+}
+
+
+    .footer > a, .footer>a:hover {
+       
+        color:#fff;
+    }
+
+/*==============================================
+    MEDIA QUERIES     
+    =============================================*/
+ 
+ @media(min-width:768px) {
+     #page-wrapper{
+               margin: 0 0 0 260px;
+        padding: 15px 30px;
+        min-height: 1050px;
+		
+    }
+	
+	
+    .navbar-side {
+        z-index: 1;
+        position: absolute;
+        width: 260px;
+       
+    }
+
+ 
+}
+.user-img-div {
+    min-height: 140px;
+    padding: 20px;
+    background-color: #4380B8;
+}
+.user-img-div img {
+    max-height: 60px;
+    
+}
+.user-img-div .inner-text {
+    text-align: right;
+    position: relative;
+    color: #FFF;
+    font-weight: 800;
+    line-height: 25px;
+    float: right;
+}
+.user-img-div .user-img{
+    float: left;
+}
+.user-log {
+    float: right;
+    color: #fff;
+   
+}
+.header_name {
+    text-align: center;
+    font-size: 42px;
+    color: #FFF;
+    font-family: Ubuntu;
+    padding: 25px;
+}
+
+.share {
+    width: 20%;
+    float: left;
+    border-right: none;
+}
+.share{
+  background-repeat:no-repeat;
+  background-attachment:fixed;  
+  line-height:20px;
+  margin:0;
+}
+
+.details {
+    width:80%;
+    float: left;
+    padding: 30px;
+    border-left:none;
+    text-align: justify;
+    
+}
+
+.padding {
+    padding-bottom:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
